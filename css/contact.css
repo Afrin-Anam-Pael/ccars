@@ -1,0 +1,180 @@
+@font-face{
+
+font-family: 'PRISTINA';
+src:url('fonts/PRISTINA.woff') format('woff');
+
+}
+/*header part start*/
+header{
+background-color: #ffffff;
+
+}
+
+.logo h1{
+
+	font-family:'PRISTINA';
+	color:#616161;
+	font-size: 60px;
+	padding-top: 35px ;
+}
+
+
+}
+
+a {
+    color: #005e7e;
+    text-decoration: none;
+    background-color: transparent;
+}
+.ol{
+	background: transparent;
+	margin-top:40px;
+}
+
+.li{
+	background: transparent;
+	color: #005e7e;
+	cursor: pointer;
+}
+/*header part end*/
+.sp span{
+
+border:5px solid #e4e4e4;
+width:100%;
+display:block;
+	 
+
+}
+
+/*contact section start*/
+.contact{
+
+	background-color: #ee4a3f;
+	padding:20px 0px;
+}
+.contact h1{
+
+	font-size: 45px;
+	color: white;
+	font-weight: bold;
+}
+.info p{
+
+	color:white;
+}
+.form-control{
+
+	width:80%;
+	background-color: #ee4a3f;
+}
+.text{
+
+	background-color: #ee4a3f;
+    width:80%;
+}
+.nam{
+
+	color:white;
+}
+.namm{
+	color:white;
+}
+.btn-cstm{
+
+	font-family:'PRISTINA';
+	color:white;
+	font-size: 29px;
+	font-weight: bold;  
+	margin-top:45% ;
+	margin-left: 0%;
+}
+
+/*contact section end*/
+
+/*footer paert start*/
+footer{
+background-color: #ef4035;
+padding: 25px 0px;
+text-align: center;
+
+}
+.fot p{
+
+	color:white;
+}
+/*footer part end*/
+
+/*mobile divce*/
+@media(min-width: 0px) and (max-width: 500px){
+
+.logo h1{
+
+	font-size: 25px;
+
+}
+.ol{
+	background: transparent;
+	margin:0px;
+
+}
+
+.form-control{
+
+	width:80%;
+	background-color: #ee4a3f;
+	display: block;
+	margin:0 auto;
+}
+.nam{
+
+	color:white;
+   margin-left:185px;
+}
+.namm{
+
+	margin-left: 160px;
+	color:white;
+	
+}
+.btn-cstm{
+
+	font-family:'PRISTINA';
+	color:white;
+	font-size: 29px;
+	font-weight: bold;
+	margin-top: 0%;
+	display: block;
+	margin: 0 auto; 
+
+}
+.text{
+
+	background-color: #ee4a3f;
+    width:80%;
+   display: block;
+	margin:0 auto;   
+}
+.info p{
+	font-size: 15px;
+}
+.contact h1{
+	font-size: 25px;
+}
+.img-gb{
+align-self: top-center;
+}
+}
+
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}

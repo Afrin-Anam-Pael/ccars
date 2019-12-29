@@ -1,0 +1,107 @@
+@font-face{
+
+font-family: 'PRISTINA';
+src:url('fonts/PRISTINA.woff') format('woff');
+
+}
+/*header part start*/
+header{
+background-color: #ffffff;
+
+}
+
+.logo h1{
+
+	font-family:'PRISTINA';
+	color:#616161;
+	font-size: 60px;
+	padding-top: 35px ;
+}
+
+
+a {
+    color: #005e7e;
+    text-decoration: none;
+    background-color: transparent;
+}
+.ol{
+	background: transparent;
+	margin-top:40px;
+}
+
+.li{
+	background: transparent;
+	color: #005e7e;
+	cursor: pointer;
+}
+/*header part end*/
+
+.sp span{
+
+border:5px solid #e4e4e4;
+width:100%;
+display:block;
+}
+/*info section start*/
+.labo{
+padding: 20px;
+
+}
+.labo p{
+
+	color:#270e0e;
+}
+.img-gob{
+	
+	margin-right: 0px;
+}
+
+/*info section end*/
+
+/*footer paert start*/
+footer{
+background-color: #ef4035;
+padding: 25px 0px;
+text-align: center;
+
+}
+.fot p{
+
+	color:white;
+}
+/*footer part end*/
+@media(min-width: 0px) and (max-width: 500px){
+
+.logo h1{
+
+	font-family:'PRISTINA';
+	color:#616161;
+	font-size: 25px;
+	padding-bottom: 0px ;
+
+}
+.ol{
+	background: transparent;
+	margin-top:0px; 
+}
+}
+.btn-cstm{
+
+	margin-top:5%;
+
+}
+}
+
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}

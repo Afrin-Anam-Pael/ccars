@@ -1,0 +1,302 @@
+@font-face{
+
+font-family: 'PRISTINA';
+src:url('fonts/PRISTINA.woff') format('woff');
+
+}
+/*header part start*/
+header{
+
+    background: url(../img/bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: transparent;  
+   background-image: center; 
+}
+.ovr{
+	background-color: #00000080;
+}
+.logo h1{
+font-family: 'PRISTINA';
+color:#fafd17;
+margin-top:40px;
+font-weight: bold;
+font-size: 50px;
+}
+
+a {
+    color: #005e7e;
+    text-decoration: none;
+    background-color: transparent;
+    color:white;
+}
+.ol{
+	background: transparent;
+	margin-top:40px
+
+}
+
+.li{
+	background: transparent;
+	color:white;
+	cursor: pointer;
+}
+.main{
+	padding: 130px 0px;
+	}
+ .main h2{
+font-size: 50px;
+color: white;
+background-color: #000000d1;
+text-align:center;
+ }
+ .main p{
+
+color:white;
+margin-bottom: 60px;
+margin-top: 30px; 
+ }
+.main span{
+border-bottom: 1px solid white;
+width:20px;
+display:block;
+margin:30px 0px;	
+}
+.btn-light{
+
+border-color:white;
+color:white;
+padding:16px 90px;
+
+}
+.btn-light:hover{
+
+	background-color: silver;
+	color:white;
+}
+/*header part end*/
+/* info section start*/
+.info{
+
+	background-color: #f6f6f6;
+	padding-top: 100px;
+}
+.cart{
+position:relative;
+
+
+}
+.cart h1{
+
+font-size: 53px;
+letter-spacing: 1px;
+
+}
+.cart p{
+
+padding-bottom: 50px;
+margin-right:200px;	
+color:#888888;
+}
+.cart span{
+
+border-bottom: 1px solid black;
+width:20px;
+display:block;
+margin:30px 0px;
+	
+}
+.car{
+
+position: absolute;
+height:110%;
+width:140%;
+top:6%;
+right:-80%;
+}
+/*info section end*/
+/*title section start*/
+.title{
+background-color:#28282e;
+padding:100px 0px;
+}
+.three h1{
+color:white;
+font-weight: bold;
+font-size:52px;
+
+}
+.three span{
+border-bottom: 1px solid white;
+width:20px;
+display:block;
+margin:30px 0px;
+	
+}
+.description p {
+color: white;
+padding:20px 0px;
+}
+
+.btn-light{
+color:white;
+background-color:#c0c0c000;
+}
+/*title section end*/
+/*footer paert start*/
+footer{
+background-color: #ef4035;
+padding: 25px 0px;
+text-align: center;
+
+}
+.fot p{
+
+	color:white;
+}
+/*footer part end*/
+
+/*mobile divce*/
+@media(min-width: 0px) and (max-width: 500px){
+
+
+
+.logo h1{
+
+	font-size: 30px;
+	padding-top: 5px;
+}
+.ol{
+	
+	margin-top:0px;
+
+}	
+.main{
+
+padding-bottom:40px;
+padding-top:0px;  
+
+}
+.main h2{
+	
+font-size: 20px; 
+margin-top:0px; 
+	
+}
+.main p{
+font-size: 13px;
+margin:25px 10px;
+	
+}
+.main span{
+
+display:block;
+margin:0 auto;
+
+}
+.btn-light{
+
+border-color:white;
+color:white;
+display: block;
+margin: 10px auto;
+}
+.cart h1{
+
+font-size: 15px;
+letter-spacing: 0px;
+
+}
+
+.cart p{
+
+padding-bottom: 30px;
+margin-right:10px;	
+color:#888888;
+font-size: 10px;
+}
+.car{
+
+position: absolute;
+height:110%;
+width:130%;
+top:6%;
+right:-90%;
+}
+.three h1{
+color:white;
+font-weight: bold;
+font-size:25px;
+}
+.description p{
+	font-size: 10px;
+	padding: 5px 0px;
+}
+.btn-light{
+
+	font-size:12px;
+	padding:5px 5px;
+}
+.info{
+
+	background-color: #f6f6f6;
+	padding-top: 20px;
+}
+.cart{
+position:relative;
+}
+.car{
+
+position: absolute;
+width:120%;
+top:33%;
+right:-67%;
+}
+.cart span{
+
+border-bottom: 1px solid black;
+width:20px;
+display:block;
+margin:5px 0px;
+	
+}
+.title{
+background-color:#28282e;
+padding:20px 0px;
+}
+.three h1{
+color:white;
+font-weight: bold;
+font-size:15px;
+margin-top:7px; 
+
+}
+.three span{
+border-bottom: 1px solid white;
+width:20px;
+display:block;
+margin:5px 0px;
+	
+}
+.description p {
+color: white;
+padding:5px 0px;
+}
+.img-center{
+
+margin-top: 20px;
+}
+
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}
